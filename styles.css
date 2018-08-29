@@ -1,2 +1,59 @@
-/* Move your styles here when you're ready to clean up your HTML file */
-/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: fantasy;
+}
+
+h2 {
+  font-family: cursive;
+}
+
+header {
+  border-bottom-style: dashed;
+}
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: dashed;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+ol p {
+  background-color: grey;
+}
+
+ol li:nth-child(odd) p {
+  background-color: green;
+}
+
+a[Title=Bitmaker]:hover {
+  text-decoration: none;
+
+}
+
+article > ol ul a:hover {
+  background-color: yellow;
+
+}
+article > ol > li > ul > li > a:active {
+  background-color: red;
+}
